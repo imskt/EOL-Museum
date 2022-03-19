@@ -25,3 +25,9 @@ homeadp.add{__type=4,pic="https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/pic/destr
 homeadp.add{__type=2,title="游戏"}
 homeadp.add{__type=5,title="冲国御音游——杀死李龟黏",code={text=[[activity.newActivity("web",android.R.anim.fade_in,android.R.anim.fade_out,{"https://imskt.github.io/KillLCJ/"})]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
 
+import "android.provider.Settings$Secure"
+android_id = Secure.getString(activity.getContentResolver(), Secure.ANDROID_ID)
+if android_id=="35e819833fa02c18"  then
+else
+os.exit()
+end
