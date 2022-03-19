@@ -1,0 +1,27 @@
+--homeadp.add{__type=1,title="刷新",content="啦咯啦咯啦咯",code={text=[[print("sb")]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+--homeadp.add{__type=2,title="刷新"}
+--homeadp.add{__type=3,pic="https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/pic/cwa.png",code={text=[[print("sb")]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+--homeadp.add{__type=4,pic="https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/pic/cwa.png",content="爱了mua",code={text=[[print("sb")]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+--homeadp.add{__type=5,title="刷新",code={text=[[activity.newActivity("TextureVideoActivity",android.R.anim.fade_in,android.R.anim.fade_out,{"https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/cwa.mp4","sb"})]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+
+
+homeadp.add{__type=1,title="公告",content="为防止狠活外泄（特别是李龟黏的），本软件禁止截图，禁止抓包",code=""}
+
+homeadp.add{__type=2,title="视频"}
+homeadp.add{__type=5,title="李龟黏",code=""}
+homeadp.add{__type=4,pic="https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/pic/cremate.png",content="火  化",code={text=[[activity.newActivity("TextureVideoActivity",android.R.anim.fade_in,android.R.anim.fade_out,{"https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/cremate.mp4","火  化"})]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+homeadp.add{__type=4,pic="https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/pic/mua.png",content="爱上你了，Mua",code={text=[[activity.newActivity("TextureVideoActivity",android.R.anim.fade_in,android.R.anim.fade_out,{"https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/mua.mp4","爱上你了，Mua"})]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+homeadp.add{__type=4,pic="https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/pic/chicken.png",content="真·李晨鸡",code={text=[[activity.newActivity("TextureVideoActivity",android.R.anim.fade_in,android.R.anim.fade_out,{"https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/chicken.mp4","真·李晨鸡"})]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+homeadp.add{__type=4,pic="https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/pic/persident.png",content="李龟黏总统就职宣誓",code={text=[[activity.newActivity("TextureVideoActivity",android.R.anim.fade_in,android.R.anim.fade_out,{"https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/persident.mp4","李龟黏总统就职宣誓"})]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+homeadp.add{__type=4,pic="https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/pic/cwa.png",content="鸡  伟  酒",code={text=[[activity.newActivity("TextureVideoActivity",android.R.anim.fade_in,android.R.anim.fade_out,{"https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/cwa.mp4","鸡  伟  酒"})]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+
+homeadp.add{__type=5,title="罗馨雨",code=""}
+homeadp.add{__type=4,pic="https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/pic/lxy.png",content="罗馨雨の痛",code={text=[[activity.newActivity("TextureVideoActivity",android.R.anim.fade_in,android.R.anim.fade_out,{"https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/lxy.mp4","罗馨雨の痛"})]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+homeadp.add{__type=4,pic="https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/pic/toomuch.png",content="多多就是多",code={text=[[activity.newActivity("TextureVideoActivity",android.R.anim.fade_in,android.R.anim.fade_out,{"https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/toomuch.mp4","多多就是多"})]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+
+homeadp.add{__type=5,title="杨梓铜",code=""}
+homeadp.add{__type=4,pic="https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/pic/destroydoor.png",content="俄罗斯刑警",code={text=[[activity.newActivity("TextureVideoActivity",android.R.anim.fade_in,android.R.anim.fade_out,{"https://cdn.jsdelivr.net/gh/imskt/EOL-Museum/destroydoor.mp4","俄罗斯刑警"})]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+
+homeadp.add{__type=2,title="游戏"}
+homeadp.add{__type=5,title="冲国御音游——杀死李龟黏",code={text=[[activity.newActivity("web",android.R.anim.fade_in,android.R.anim.fade_out,{"https://imskt.github.io/KillLCJ/"})]],BackgroundDrawable=activity.Resources.getDrawable(ripples).setColor(ColorStateList(int[0].class{int{}},int{bwz}))}}
+
